@@ -8,7 +8,7 @@ Full folder controllers load
 
 # Using it
 
-```
+```js
 var ctrlLoad = require('controller-load');
 
 var express = require('express');
@@ -19,7 +19,7 @@ ctrlLoad.Load(app, './controller/', true);
 
 # Sample Controller
 
-```
+```js
 function Me(req, res) {
 	res.json({ message: "me controller" });
 }
