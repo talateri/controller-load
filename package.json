@@ -1,0 +1,24 @@
+{
+  "name": "controller-load",
+  "version": "0.0.1",
+  "description": "node controller load",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/talateri/controller-load.git"
+  },
+  "keywords": [
+    "nodejs",
+    "controller",
+    "load"
+  ],
+  "author": "Talat Eri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/talateri/controller-load/issues"
+  },
+  "homepage": "https://github.com/talateri/controller-load#readme"
+}
