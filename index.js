@@ -32,7 +32,7 @@ exports.WalkSync = function(dir) {
 
 //Load files (require)
 exports.Load = function(app, folder, view) {
-	var result = WalkSync(folder);
+	var result = exports.WalkSync(folder);
 
 	if (!result)
 		console.log('Load error');
