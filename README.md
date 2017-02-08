@@ -24,7 +24,7 @@ function Me(req, res) {
 	res.json({ message: "me controller" });
 }
 
-module.exports = function() {
+module.exports = function(app) {
 	app.get('/me', Me);
 }
 ```
