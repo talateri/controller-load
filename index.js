@@ -14,7 +14,7 @@ exports.WalkSync = function(dir) {
 		var stat = fs.statSync(file);
 
 		if (stat && stat.isDirectory()) {
-			var res = walkSync(file);
+			var res = exports.WalkSync(file);
 			results = results.concat(res);
 			if (!--pending)
 				return results;
